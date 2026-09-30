@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4450153982187034919}
   - component: {fileID: 6296117716730556192}
   - component: {fileID: 3193150813870487667}
+  - component: {fileID: 891130456789012345}
   m_Layer: 0
   m_Name: Target
   m_TagString: Target
@@ -79,9 +80,9 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 0.28005147, g: 0.8490566, b: 0.07529365, a: 1}
+  m_Color: {r: 0.9137255, g: 0.6431373, b: 0.24705882, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -127,3 +128,16 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.5
+--- !u!114 &891130456789012345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5729148497888909938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ab7386d12334d668f7192cf90c334a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CuteIconVisual
+  iconType: 1
